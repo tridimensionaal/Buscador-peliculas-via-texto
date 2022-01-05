@@ -1,0 +1,9 @@
+mafia,scarface 1983,chinatown 1974,the godfather 1972,reservoir dogs 1992
+animation,toy story 1995,toy story 3 2010,toy story 2 1999
+medieval,the lord of the rings the two towers 2002,the lord of the rings the return of the king 2003,the lord of the rings the fellowship of the ring 2001,braveheart 1995
+religious,det sjunde inseglet 1957,ordet 1955, andrei rublev 1979,the tree of life 2011
+crime drama,taxi driver 1976,drive 2011,nightcrawler 2014,fargo 1996
+romance,before sunset 2004,before sunrise 1995,eternal sunshine of the spotless mind 2004,annie hall 1977
+horror,halloween 1978,the exorcist 1973,the silence of the lambs 1991, psycho 1960
+psychological,perfect blue 1997,the elephant man 1980,american psycho 2000,the shining 1980
+mystery,vanilla sky 2001,blue velvet 1986,memento 2000,vertigo 1958
