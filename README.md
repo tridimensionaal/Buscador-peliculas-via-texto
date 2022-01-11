@@ -80,13 +80,13 @@
 
   Ahora, el script `create_data.sh` lee cada línea del archivo `file.txt` y ejecuta dos scripts por
   cada línea del archivo:
+  -  El primer script ejecutado es `get_subs.sh` que, dado el nombre una película y su año de
+  estreno, busca en la página [subdivx](https://www.subdivx.com/) 
+  los subtítulos asociados a dicha película y descargada los subtítulos 
+  más descargados asociados a dicha búsqueda
 
-    -  El primer script ejecutado es `get_subs.sh` que, dado el nombre una película y su año de
-    estreno, busca en la página [subdivx](https://www.subdivx.com/) 
-    los subtítulos asociados a dicha película y descargada los subtítulos 
-    más descargados asociados a dicha búsqueda
-    - El segundo script ejecutado es `process_sub.sh` que, dado el archivo descargado asociado
-    a los subtítulos, formatea dicho archivo.
+  - El segundo script ejecutado es `process_sub.sh` que, dado el archivo descargado asociado
+  a los subtítulos, formatea dicho archivo.
 
  2. Cuando se ejecuta el script
   ```bash
