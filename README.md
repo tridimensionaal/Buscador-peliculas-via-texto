@@ -1,4 +1,4 @@
-# Buscador-peliculas-v-a-texto
+#Buscador-peliculas-v-a-texto
 ---
 ## Contents:
  - [Descripción](#Descripción)
@@ -125,8 +125,11 @@
   como se presenta: dada la película raging bull, se tiene que sus vecinos más cercanos son
   los siguientes:
   > Los 3 vecinos más cercanos de raging bull 1980 subs.srt son:
+  >
   >   1 - rocky 1976 subs.srt 0.2743067667902098
+  >
   >   2 - reservoir dogs 1992 subs.srt 0.2413979055133358
+  >
   >   3 - pulp fiction 1994 subs.srt 0.22940523832788937
 
   - El script `evaluate.py`, dado el nombre de un archivo `gt.txt`, imprime por consola una
@@ -172,11 +175,16 @@
   Respecto a la estructura de presentación de la información, el siguiente ejemplo muestra
   como se presenta:
   > Agrupando los vecinos más cercanos de det sjunde inseglet 1957 según la categoría religious (según el ground truth) se tiene :
-  >   - ordet 1955
-  >   - andrei rublev 1979
-  >   - the tree of life 2011
+  >
+  >     ordet 1955
+  >
+  >     andrei rublev 1979
+  >
+  >     the tree of life 2011
+  >
   > Ahora, los vecinos más cercanos de det sjunde inseglet 1957 obtenidos según td-idf son los siguientes :
-  >   - ordet 1955 subs.srt
-  >   - la dolce vita 1960 subs.srt
-  >   - fanny och alexander 1982 subs.srt
+  >     ordet 1955 subs.srt
+  >     la dolce vita 1960 subs.srt
+  >     fanny och alexander 1982 subs.srt
+  > 
   > Se obtuvo un recall de 0.3333333333333333
