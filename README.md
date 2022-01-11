@@ -1,13 +1,13 @@
-#Buscador-peliculas-v-a-texto
+# Buscador-películas-vía-texto
 ---
-## Contents:
+## Contenidos:
  - [Descripción](#Descripción)
  - [Motivación](#Motivación)
  - [Código](#Código)
  - [Funcionamiento](#Funcionamiento)
 
 ### Descripción 
-- **scripts for daily tasks** is a list of shell scripts to automate simple tasks of the daily routine.
+- Bla
 
 ### Motivación
  Una película es un contenido multimedia que consiste en, básicamente, un conjunto de imágenes
