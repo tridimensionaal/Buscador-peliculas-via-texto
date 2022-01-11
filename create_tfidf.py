@@ -2,6 +2,8 @@
 import dataset
 import pickle
 
+# hola
+
 
 def main():
     data = dataset.Dataset("datos/peliculas")
