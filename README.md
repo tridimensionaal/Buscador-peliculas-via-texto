@@ -80,6 +80,7 @@
 
   Ahora, el script `create_data.sh` lee cada línea del archivo `file.txt` y ejecuta dos scripts por
   cada línea del archivo:
+
     -  El primer script ejecutado es `get_subs.sh` que, dado el nombre una película y su año de
     estreno, busca en la página [subdivx](https://www.subdivx.com/) 
     los subtítulos asociados a dicha película y descargada los subtítulos 
@@ -106,6 +107,7 @@
   la distancia entre los distintos subtítulos (distancia entre los distintos descriptores).
   Luego, distintos scripts hacen uso de dicha estructura para gerarar consultas sobre la similitud
   de los subtítulos. En particular, se tienen los siguientes scripts:
+
     - El script `get_nns.py` imprime por consola los n vecinos más cercanos de cada película
     del dataset. El script se utiliza de la siguiente forma:
     ```bash
