@@ -1,5 +1,5 @@
 # Buscador-películas-vía-texto
----
+
 ## Contenidos:
  - [Descripción](#Descripción)
  - [Motivación](#Motivación)
@@ -7,7 +7,14 @@
  - [Funcionamiento](#Funcionamiento)
 
 ### Descripción 
-- Bla
+- El siguiente proyecto es un simple buscador de peliculas similares. Más en específico, el buscador
+ utiliza subtítulos en español de distntas películas para realizar búsquedas por similitud, es decir,
+ el buscador compara películas en base a los diálogos (subtítulos) de dichas películas y, dada los 
+ parecidos entre los subtítulos, establece un criterio para decidir cuán parecidas son dos películas.
+ El buscador crea un vocabulario mediante la `tf-idf` y luego, con dicho vocabulario,
+ calcula descriptores de contenido para cada subtítulo, estableciendo una métrica
+ para compara dos película (en futuras implementaciones se buscará utilizar técnicas que
+ calculen descriptores más sofisticados para texto como `word2vec`)
 
 ### Motivación
  Una película es un contenido multimedia que consiste en, básicamente, un conjunto de imágenes
