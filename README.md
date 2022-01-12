@@ -115,7 +115,7 @@
   Luego, distintos scripts hacen uso de dicha estructura para gerarar consultas sobre la similitud
   de los subtítulos. En particular, se tienen los siguientes scripts:
 
-  - El script `get_nns.py` imprime por consola los n vecinos más cercanos de cada película
+  El script `get_nns.py` imprime por consola los n vecinos más cercanos de cada película
   del dataset. El script se utiliza de la siguiente forma:
   ```bash
     python3 create_tfidf.py
@@ -139,7 +139,7 @@
   >
   >   3 - pulp fiction 1994 subs.srt 0.22940523832788937
 
-  - El script `evaluate.py`, dado el nombre de un archivo `gt.txt`, imprime por consola una
+  El script `evaluate.py`, dado el nombre de un archivo `gt.txt`, imprime por consola una
   evaluación de los vecinos más cercanos de cada película del dataset dada la información
   presente en el archivo `gt.txt` (archivo que contiene información sobre un ground truth
   respecto a las similitudes entre distintas películas). Más en particular, el archivo `gt.txt`
