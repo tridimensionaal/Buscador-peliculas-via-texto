@@ -7,7 +7,7 @@
  - [Funcionamiento](#Funcionamiento)
 
 ### Descripción 
-- El siguiente proyecto es un simple buscador de peliculas similares. Más en específico, el buscador
+ El siguiente proyecto es un simple buscador de peliculas similares. Más en específico, el buscador
  utiliza subtítulos en español de distntas películas para realizar búsquedas por similitud, es decir,
  el buscador compara películas en base a los diálogos (subtítulos) de dichas películas y, dada los 
  parecidos entre los subtítulos, establece un criterio para decidir cuán parecidas son dos películas.
