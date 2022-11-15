@@ -118,14 +118,14 @@
   El script `get_nns.py` imprime por consola los n vecinos más cercanos de cada película
   del dataset. El script se utiliza de la siguiente forma:
   ```bash
-    python3 create_tfidf.py
+    python3 get_nns.py n
   ```
 
   donde n es la cantidad de vecinos más cercanos que se quiere imprimir.
   Se puede redigirir la salida del programa para guardar los resultados en un archivo de
   texto. En particular, se debe realizar lo siguiente:
   ```bash
-    python3 create_tfidf.py > resultados.txt
+    python3 get_nns.py n > resultados.txt
   ```
 
   Respecto a la estructura de presentación de la información, el siguiente ejemplo muestra
